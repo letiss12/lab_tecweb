@@ -21,8 +21,9 @@ class DBAccess {
     
     }
 
-    public function closeBDConnection() {
-        // da fare
+    public function closeDBConnection() {
+        
+    
 
     }
 
