@@ -1,0 +1,86 @@
+/* HEADER */
+
+#header {
+    min-height: 0em;
+}
+
+#header #logo {
+    display: none;
+}
+
+#header h1 {
+    font-size: 2.5em;
+}
+
+#header h2 {
+    font-size: 1.2em;
+}
+
+/* MENU */
+
+#menu {
+    float: none;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+}
+#menu ul {
+    width: 50%;
+    margin: auto;
+}
+
+/* CONTENUTO */
+
+.contenutoGenerale {
+    margin-left: 0em;
+    padding: 0.5em;
+    width: 95%;
+}
+
+#contenutoHomepage {
+    width: 65%;
+}
+
+/* PERSONAGGI */
+
+#charactersStory {
+    width: 97%;
+}
+
+/*
+table {
+    width: 95%;
+    font-size: 0.7em;
+}
+*/
+
+thead, tfoot {
+    display: none;
+}
+
+td[data-title]:before {
+    content: attr(data-title) ":\00A0";
+}
+
+tr, td, th {
+    display: block;
+}
+
+th {
+    background-color: #dd091b;
+    color: white;
+    
+}
+
+table, tbody, tr, th, td {
+    border: none;
+}
+
+th, td {
+    border: 1px solid #000000;
+    border-top: none;
+}
+
+tr:first-child {
+    border-top: 1px solid #000000;
+}
