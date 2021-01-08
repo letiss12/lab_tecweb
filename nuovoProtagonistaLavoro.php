@@ -4,7 +4,7 @@
 require_once __DIR__ . DIRECTORY_SEPARATOR . "dbConnectionLavoro.php";
 use DB\DBAccess;
 
-$paginaHTML = file_get_contents('base_php' . DIRECTORY_SEPARATOR . 'nuovoProtagonistaForm.html');
+$paginaHTML = file_get_contents('nuovoProtagonistaForm.html');
 
 $messaggioPerForm = '';
 $nome = ''; $specializzazione = ''; $qi = ''; $descrizione = ''; $stagioni = array();
